@@ -60,6 +60,7 @@ class Parser
             '<=' => array('precedence' => 20, 'associativity' => self::OPERATOR_LEFT),
             'not in' => array('precedence' => 20, 'associativity' => self::OPERATOR_LEFT),
             'in' => array('precedence' => 20, 'associativity' => self::OPERATOR_LEFT),
+            'intersect' => array('precedence' => 20, 'associativity' => self::OPERATOR_LEFT),
             'matches' => array('precedence' => 20, 'associativity' => self::OPERATOR_LEFT),
             '..' => array('precedence' => 25, 'associativity' => self::OPERATOR_LEFT),
             '+' => array('precedence' => 30, 'associativity' => self::OPERATOR_LEFT),
