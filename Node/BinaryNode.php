@@ -152,6 +152,8 @@ class BinaryNode extends Node
                 return $left % $right;
             case 'matches':
                 return preg_match($right, $left);
+            case 'intersect':
+                return count(array_intersect($left, $right)) > 0;
         }
     }
 
